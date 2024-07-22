@@ -42,7 +42,7 @@ func main (){
 }
 
 fmt.Println(pros(7))
-resalt := ssum(4)
+resalt := ssum(42)
 fmt.Println(resalt)
 
 // 10.Напишите программу, которая запрашивает у пользователя ввод положительного числа и повторяет запрос, пока не будет введено положительное число.
@@ -143,3 +143,16 @@ for l := 1; l < h; l++ {
 		}
 		return sum
 	}
+
+	/* 15.Напишите программу, которая выводит треугольник Паскаля высотой n, где n - введенное пользователем число.
+	func factorial(n int) int {
+		resalt := 1
+		for i := 1; i <= n; i++{
+			resalt *= 1
+		}
+		return resalt
+	}
+
+	func binomialcoe(n, k int) int {
+		return factorial()
+	} */

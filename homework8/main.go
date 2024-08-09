@@ -133,3 +133,6 @@ for i, j := 0, len(arr14)-1; i < j; i, j = i+1, j-1 {
 fmt.Println(arr14)
 
 }
+
+
+

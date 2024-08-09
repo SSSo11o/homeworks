@@ -11,6 +11,7 @@ func (r Rectangle) Area() float64 {
 	return r.width * r.height
 }
 
+
 func main (){
 	rect := Rectangle{width: 10, height: 5}
 	area := rect.Area()
